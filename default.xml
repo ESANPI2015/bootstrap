@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="easycsm" fetch="git://git.code.sf.net/p/easycsm/"/>
+  <remote name="github_taste" fetch="https://github.com/maxime-esa/"/>
+  <remote name="github_jbeder" fetch="https://github.com/jbeder"/>
+  <remote name="github_esa_npi" fetch="https://github.com/ESANPI2015"/>
+
+  <project name="yaml-cpp.git"
+      remote="github_jbeder"
+      revision="refs/heads/master"
+      path="ext/yaml-cpp"
+      />
+
+  <!--FORK! project name="c_bagel.git"
+      remote="gitlab_bagel"
+      revision="refs/heads/moritz_patch"
+      path="ext/c_bagel"
+      /-->
+  <!--FORK! project name="cmakemodules.git"
+      remote="gitlab_istruct"
+      revision="refs/heads/master"
+      path="CMake-Modules"
+      /-->
+  <!-- the "old" istruct-based support libs, for ndlcom proper -->
+  <!--FORK! project name="lib_representations.git"
+      remote="gitlab_istruct"
+      revision="refs/heads/esa_npi"
+      path="lib/representations"
+      /-->
+  <!--FORK! project name="lib_ndlcom.git"
+      remote="gitlab_istruct"
+      revision="refs/heads/master"
+      path="lib/ndlcom"
+      /-->
+
+
+  <!--<project name="code.git"-->
+      <!--remote="easycsm"-->
+      <!--revision="refs/heads/master"-->
+      <!--path="ext/easycsm"-->
+      <!--/>-->
+
+  <project name="in_system_programming.git"
+      remote="github_esa_npi"
+      revision="refs/heads/master"
+      path="lib/isp"
+      />
+  <project name="genBG.git"
+      remote="github_esa_npi"
+      revision="refs/heads/master"
+      path="lib/genbg"
+      />
+  <project name="hwGraph.git"
+      remote="github_esa_npi"
+      revision="refs/heads/master"
+      path="lib/hwgraph"
+      />
+  <project name="mapBG.git"
+      remote="github_esa_npi"
+      revision="refs/heads/master"
+      path="lib/mapbg"
+      />
+  <project name="toolchain.git"
+      remote="github_esa_npi"
+      revision="refs/heads/master"
+      path="toolchain"
+      />
+  <project name="example.git"
+      remote="github_esa_npi"
+      revision="refs/heads/master"
+      path="example"
+      />
+  <project name="vhdl.git"
+      remote="github_esa_npi"
+      revision="refs/heads/master"
+      path="vhdl"
+      />
+
+  <!--<project name="chibios_firmware_eurex-sysmgm.git"-->
+      <!--remote="gitlab_team2"-->
+      <!--revision="refs/heads/master"-->
+      <!--path="firmware/eurex-sysmgm"-->
+      <!--/>-->
+  <!--<project name="chibios_firmware_modulelektronik.git"-->
+      <!--remote="gitlab_team2"-->
+      <!--revision="refs/heads/master"-->
+      <!--path="firmware/modulelektronik"-->
+      <!--/>-->
+  <!--<project name="chibios_firmware_mdaq2.git"-->
+      <!--remote="gitlab_team2"-->
+      <!--revision="refs/heads/master"-->
+      <!--path="firmware/mdaq2"-->
+      <!--/>-->
+  <!--<project name="chibios_boardfiles.git"-->
+      <!--remote="gitlab_team2"-->
+      <!--revision="refs/heads/master"-->
+      <!--path="boardfiles"-->
+      <!--/>-->
+  <!--<project name="chibios_support.git"-->
+      <!--remote="gitlab_team2"-->
+      <!--revision="refs/heads/master"-->
+      <!--path="support"-->
+      <!--/>-->
+
+  <!--<project name="lib_robotconfig.git"-->
+      <!--remote="gitlab_istruct"-->
+      <!--revision="refs/heads/master"-->
+      <!--path="lib/RobotConfig"-->
+      <!--/>-->
+  <!--<project name="cmakemodules.git"-->
+      <!--remote="gitlab_istruct"-->
+      <!--revision="refs/heads/arm-none-eabi-2014.05"-->
+      <!--path="CMake-Modules"-->
+      <!--/>-->
+
+</manifest>
