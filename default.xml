@@ -22,18 +22,18 @@
       revision="refs/heads/master"
       path="CMake-Modules"
       /-->
+
   <!-- the "old" istruct-based support libs, for ndlcom proper -->
-  <!--FORK! project name="lib_representations.git"
-      remote="gitlab_istruct"
+  <project name="lib_representations.git"
+      remote="gitlab_esa_npi"
       revision="refs/heads/esa_npi"
       path="lib/representations"
-      /-->
-  <!--FORK! project name="lib_ndlcom.git"
-      remote="gitlab_istruct"
+      />
+  <project name="lib_ndlcom.git"
+      remote="gitlab_esa_npi"
       revision="refs/heads/master"
       path="lib/ndlcom"
-      /-->
-
+      />
 
   <!--<project name="code.git"-->
       <!--remote="easycsm"-->
