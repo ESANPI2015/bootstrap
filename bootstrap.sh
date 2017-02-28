@@ -2,7 +2,7 @@
 set -e
 
 # location where the "default.xml" for the repo tool lives
-REPO_MANIFEST_SERVER=git@github.com:ESANPI2015
+REPO_MANIFEST_SERVER=https://github.com/ESANPI2015
 REPO_MANIFEST_REPO=bootstrap.git
 REPO_MANIFEST_URL=$REPO_MANIFEST_SERVER/$REPO_MANIFEST_REPO
 REPO_MANIFEST_BRANCH=master
