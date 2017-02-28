@@ -25,12 +25,12 @@
 
   <!-- the "old" istruct-based support libs, for ndlcom proper -->
   <project name="lib_representations.git"
-      remote="gitlab_esa_npi"
+      remote="github_esa_npi"
       revision="refs/heads/esa_npi"
       path="lib/representations"
       />
   <project name="lib_ndlcom.git"
-      remote="gitlab_esa_npi"
+      remote="github_esa_npi"
       revision="refs/heads/master"
       path="lib/ndlcom"
       />
