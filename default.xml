@@ -41,7 +41,7 @@
       <!--path="ext/easycsm"-->
       <!--/>-->
 
-  <project name="in_system_programming.git"
+  <project name="isp.git"
       remote="github_esa_npi"
       revision="refs/heads/master"
       path="lib/isp"
