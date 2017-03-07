@@ -24,16 +24,18 @@
       /-->
 
   <!-- the "old" istruct-based support libs, for ndlcom proper -->
-  <project name="lib_representations.git"
+  <!-- NOTE: Cannot be forked/published on GitHub until licensed by DFKI -->
+  <!--project name="lib_representations.git"
       remote="github_esa_npi"
       revision="refs/heads/esa_npi"
       path="lib/representations"
-      />
-  <project name="lib_ndlcom.git"
+      /-->
+  <!-- NOTE: Cannot be forked/published on GitHub until licensed by DFKI -->
+  <!--project name="lib_ndlcom.git"
       remote="github_esa_npi"
       revision="refs/heads/master"
       path="lib/ndlcom"
-      />
+      /-->
 
   <!--<project name="code.git"-->
       <!--remote="easycsm"-->
