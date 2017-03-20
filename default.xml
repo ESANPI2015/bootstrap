@@ -43,6 +43,11 @@
       <!--path="ext/easycsm"-->
       <!--/>-->
 
+  <project name="swgraph.git"
+      remote="github_esa_npi"
+      revision="refs/heads/master"
+      path="lib/swgraph"
+      />
   <project name="hypergraph.git"
       remote="github_esa_npi"
       revision="refs/heads/master"
