@@ -5,12 +5,9 @@
   <remote name="github_taste" fetch="https://github.com/maxime-esa/"/>
   <remote name="github_jbeder" fetch="https://github.com/jbeder"/>
   <remote name="github_esa_npi" fetch="https://github.com/ESANPI2015"/>
+  <!--remote name="gitlab_istruct" fetch="https://git.hb.dfki.de/iStruct"/-->
 
-  <project name="yaml-cpp.git"
-      remote="github_jbeder"
-      revision="refs/heads/master"
-      path="ext/yaml-cpp"
-      />
+  <!-- DFKI (CLOSED SOURCE) -->
 
   <!--FORK! project name="c_bagel.git"
       remote="gitlab_bagel"
@@ -43,6 +40,13 @@
       <!--path="ext/easycsm"-->
       <!--/>-->
 
+  <!-- OPEN SOURCE -->
+
+  <project name="yaml-cpp.git"
+      remote="github_jbeder"
+      revision="refs/heads/master"
+      path="ext/yaml-cpp"
+      />
   <project name="swgraph.git"
       remote="github_esa_npi"
       revision="refs/heads/master"
@@ -88,6 +92,8 @@
       revision="refs/heads/master"
       path="vhdl"
       />
+
+  <!-- OLD STUFF -->
 
   <!--<project name="chibios_firmware_eurex-sysmgm.git"-->
       <!--remote="gitlab_team2"-->
