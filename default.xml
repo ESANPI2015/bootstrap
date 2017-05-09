@@ -42,6 +42,11 @@
 
   <!-- OPEN SOURCE -->
 
+  <project name="gui-hypergraph.git"
+      remote="github_esa_npi"
+      revision="refs/heads/master"
+      path="gui"
+      />
   <project name="yaml-cpp.git"
       remote="github_jbeder"
       revision="refs/heads/master"
