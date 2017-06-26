@@ -62,41 +62,41 @@
       revision="refs/heads/master"
       path="lib/hypergraph"
       />
-  <project name="isp.git"
+  <!--project name="isp.git"
       remote="github_esa_npi"
       revision="refs/heads/master"
       path="lib/isp"
-      />
-  <project name="genBG.git"
+      /-->
+  <!--project name="genBG.git"
       remote="github_esa_npi"
       revision="refs/heads/master"
       path="lib/genbg"
-      />
+      /-->
   <project name="hwGraph.git"
       remote="github_esa_npi"
       revision="refs/heads/master"
       path="lib/hwgraph"
       />
-  <project name="mapBG.git"
+  <!--project name="mapBG.git"
       remote="github_esa_npi"
       revision="refs/heads/master"
       path="lib/mapbg"
-      />
+      /-->
   <project name="toolchain.git"
       remote="github_esa_npi"
       revision="refs/heads/master"
       path="toolchain"
       />
-  <project name="example.git"
+  <!--project name="example.git"
       remote="github_esa_npi"
       revision="refs/heads/master"
       path="example"
-      />
-  <project name="vhdl.git"
+      /-->
+  <!--project name="vhdl.git"
       remote="github_esa_npi"
       revision="refs/heads/master"
       path="vhdl"
-      />
+      /-->
 
   <!-- OLD STUFF -->
 
