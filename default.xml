@@ -67,11 +67,11 @@
       revision="refs/heads/master"
       path="lib/isp"
       /-->
-  <!--project name="genBG.git"
+  <project name="genBG.git"
       remote="github_esa_npi"
       revision="refs/heads/master"
       path="lib/genbg"
-      /-->
+      />
   <project name="hwGraph.git"
       remote="github_esa_npi"
       revision="refs/heads/master"
@@ -92,11 +92,11 @@
       revision="refs/heads/master"
       path="example"
       /-->
-  <!--project name="vhdl.git"
+  <project name="vhdl.git"
       remote="github_esa_npi"
       revision="refs/heads/master"
-      path="vhdl"
-      /-->
+      path="lib/genbg/vhdl"
+      />
 
   <!-- OLD STUFF -->
 
