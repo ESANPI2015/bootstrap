@@ -62,6 +62,11 @@
       revision="refs/heads/master"
       path="lib/hypergraph"
       />
+  <project name="domaingraph.git"
+      remote="github_esa_npi"
+      revision="refs/heads/master"
+      path="lib/domaingraph"
+      />
   <!--project name="isp.git"
       remote="github_esa_npi"
       revision="refs/heads/master"
