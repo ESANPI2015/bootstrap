@@ -7,39 +7,6 @@
   <remote name="github_esa_npi" fetch="https://github.com/ESANPI2015"/>
   <!--remote name="gitlab_istruct" fetch="https://git.hb.dfki.de/iStruct"/-->
 
-  <!-- DFKI (CLOSED SOURCE) -->
-
-  <!--FORK! project name="c_bagel.git"
-      remote="gitlab_bagel"
-      revision="refs/heads/moritz_patch"
-      path="ext/c_bagel"
-      /-->
-  <!--FORK! project name="cmakemodules.git"
-      remote="gitlab_istruct"
-      revision="refs/heads/master"
-      path="CMake-Modules"
-      /-->
-
-  <!-- the "old" istruct-based support libs, for ndlcom proper -->
-  <!-- NOTE: Cannot be forked/published on GitHub until licensed by DFKI -->
-  <!--project name="lib_representations.git"
-      remote="github_esa_npi"
-      revision="refs/heads/esa_npi"
-      path="lib/representations"
-      /-->
-  <!-- NOTE: Cannot be forked/published on GitHub until licensed by DFKI -->
-  <!--project name="lib_ndlcom.git"
-      remote="github_esa_npi"
-      revision="refs/heads/master"
-      path="lib/ndlcom"
-      /-->
-
-  <!--<project name="code.git"-->
-      <!--remote="easycsm"-->
-      <!--revision="refs/heads/master"-->
-      <!--path="ext/easycsm"-->
-      <!--/>-->
-
   <!-- OPEN SOURCE -->
 
   <project name="gui-hypergraph.git"
@@ -52,11 +19,6 @@
       revision="refs/heads/master"
       path="ext/yaml-cpp"
       />
-  <project name="swgraph.git"
-      remote="github_esa_npi"
-      revision="refs/heads/master"
-      path="lib/swgraph"
-      />
   <project name="hypergraph.git"
       remote="github_esa_npi"
       revision="refs/heads/master"
@@ -66,6 +28,26 @@
       remote="github_esa_npi"
       revision="refs/heads/master"
       path="lib/domaingraph"
+      />
+  <project name="swgraph.git"
+      remote="github_esa_npi"
+      revision="refs/heads/master"
+      path="lib/swgraph"
+      />
+  <project name="drock.git"
+      remote="github_esa_npi"
+      revision="refs/heads/master"
+      path="lib/drock"
+      />
+  <project name="hwGraph.git"
+      remote="github_esa_npi"
+      revision="refs/heads/master"
+      path="lib/hwgraph"
+      />
+  <project name="toolchain.git"
+      remote="github_esa_npi"
+      revision="refs/heads/master"
+      path="toolchain"
       />
   <!--project name="isp.git"
       remote="github_esa_npi"
@@ -77,21 +59,11 @@
       revision="refs/heads/master"
       path="lib/genbg"
       /-->
-  <project name="hwGraph.git"
-      remote="github_esa_npi"
-      revision="refs/heads/master"
-      path="lib/hwgraph"
-      />
   <!--project name="mapBG.git"
       remote="github_esa_npi"
       revision="refs/heads/master"
       path="lib/mapbg"
       /-->
-  <project name="toolchain.git"
-      remote="github_esa_npi"
-      revision="refs/heads/master"
-      path="toolchain"
-      />
   <!--project name="example.git"
       remote="github_esa_npi"
       revision="refs/heads/master"
@@ -102,44 +74,5 @@
       revision="refs/heads/master"
       path="vhdl"
       /-->
-
-  <!-- OLD STUFF -->
-
-  <!--<project name="chibios_firmware_eurex-sysmgm.git"-->
-      <!--remote="gitlab_team2"-->
-      <!--revision="refs/heads/master"-->
-      <!--path="firmware/eurex-sysmgm"-->
-      <!--/>-->
-  <!--<project name="chibios_firmware_modulelektronik.git"-->
-      <!--remote="gitlab_team2"-->
-      <!--revision="refs/heads/master"-->
-      <!--path="firmware/modulelektronik"-->
-      <!--/>-->
-  <!--<project name="chibios_firmware_mdaq2.git"-->
-      <!--remote="gitlab_team2"-->
-      <!--revision="refs/heads/master"-->
-      <!--path="firmware/mdaq2"-->
-      <!--/>-->
-  <!--<project name="chibios_boardfiles.git"-->
-      <!--remote="gitlab_team2"-->
-      <!--revision="refs/heads/master"-->
-      <!--path="boardfiles"-->
-      <!--/>-->
-  <!--<project name="chibios_support.git"-->
-      <!--remote="gitlab_team2"-->
-      <!--revision="refs/heads/master"-->
-      <!--path="support"-->
-      <!--/>-->
-
-  <!--<project name="lib_robotconfig.git"-->
-      <!--remote="gitlab_istruct"-->
-      <!--revision="refs/heads/master"-->
-      <!--path="lib/RobotConfig"-->
-      <!--/>-->
-  <!--<project name="cmakemodules.git"-->
-      <!--remote="gitlab_istruct"-->
-      <!--revision="refs/heads/arm-none-eabi-2014.05"-->
-      <!--path="CMake-Modules"-->
-      <!--/>-->
 
 </manifest>
