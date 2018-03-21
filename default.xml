@@ -24,22 +24,22 @@
       revision="refs/heads/master"
       path="lib/hypergraph"
       />
-  <project name="domaingraph.git"
+  <project name="componentnet.git"
       remote="github_esa_npi"
       revision="refs/heads/master"
-      path="lib/domaingraph"
+      path="lib/componentnet"
       />
-  <project name="swgraph.git"
+  <project name="bgraph.git"
       remote="github_esa_npi"
       revision="refs/heads/master"
-      path="lib/swgraph"
+      path="lib/bgraph"
       />
   <project name="drock.git"
       remote="github_esa_npi"
       revision="refs/heads/master"
       path="lib/drock"
       />
-  <project name="hwGraph.git"
+  <project name="hwgraph.git"
       remote="github_esa_npi"
       revision="refs/heads/master"
       path="lib/hwgraph"
